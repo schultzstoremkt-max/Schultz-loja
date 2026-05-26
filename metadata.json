@@ -1,0 +1,6 @@
+{
+  "name": "Schultz Ortopédicos",
+  "description": "Catálogo online de produtos ortopédicos de alta qualidade com sistema de pedidos direto pelo WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

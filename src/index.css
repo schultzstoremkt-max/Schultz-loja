@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Work+Sans:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Work Sans", sans-serif;
+
+  --color-brand-green: #72b63c;
+  --color-brand-green-dark: #5c982e;
+  --color-brand-green-light: #f2f9ed;
+  --color-brand-blue: #1d4391;
+  --color-brand-blue-dark: #14306b;
+  --color-brand-blue-light: #e8eef9;
+}
+
+/* Base custom styles to make scrollbars nice and clean */
+@layer base {
+  body {
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+/* Utility to hide scrollbars for category tabs swipe */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
